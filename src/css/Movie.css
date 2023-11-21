@@ -1,0 +1,48 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.container > h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px auto;
+}
+.container > .img-list {
+  margin-bottom: 50px;
+}
+.container > .img-list > ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+.container > .img-list > ul > li {
+  width: 22%;
+}
+.container > .img-list > ul > li > a {
+  display: block;
+}
+.container > .img-list > ul > li > a > figure > img {
+  width: 100%;
+  height: 100%;
+}
+.container > .img-list > ul > li > a > figure > figcaption {
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.more-btn {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.more-btn > button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}

@@ -1,0 +1,91 @@
+.main-top {
+  width: 100%;
+}
+.main-top .box {
+  width: 100%;
+}
+.main-top .box > .bg {
+  padding: 200px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-top .box > .bg > .txt-box {
+  width: 50%;
+}
+.main-top .box > .bg > .txt-box > .title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.main-top .box > .bg > .txt-box > .info {
+  font-size: 18px;
+  padding: 50px 0;
+}
+.main-top .box > .bg > .txt-box > .btn-box > button {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  border: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 20px;
+}
+.main-top .box > .bg > .img-box > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aa {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.aa > li {
+  width: 30%;
+}
+.aa > li > .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.aa > li > .name > p {
+  text-align: center;
+}
+
+.container {
+  max-width: 1320px;
+}
+.container > .con {
+  margin-bottom: 100px;
+}
+.container > .con > .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 0;
+}
+.container > .con > .top > a {
+  display: block;
+}
+.container > .con > .top > a > button {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+.container > .con > .bottom > .swiper > .swiper-wrapper > .swiper-slide {
+  width: 20%;
+}
+.container > .con > .bottom > .swiper > .swiper-wrapper > .swiper-slide > a {
+  display: block;
+  color: white;
+}
+.container > .con > .bottom > .swiper > .swiper-wrapper > .swiper-slide > a > figure > img {
+  width: 100%;
+}/*# sourceMappingURL=Home.css.map */

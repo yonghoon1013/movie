@@ -1,0 +1,114 @@
+.main-top{
+    width: 100%;
+    .box{
+        width: 100%;
+        >.bg{
+            padding: 200px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            >.txt-box{
+                width: 50%;
+                >.title{
+                    font-size: 48px;
+                    font-weight: bold;
+                }
+                >.info{
+                    font-size: 18px;
+                    padding: 50px 0;
+                }
+                >.btn-box{
+                    >button{
+                        width: 150px;
+                        height: 50px;
+                        background-color: red;
+                        border: none;
+                        font-size: 16px;
+                        color: white;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        
+            >.img-box{
+                // width: 250px;
+                // height: 200px;
+                >img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+.aa{
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    >li{
+        width: 30%;
+        >.img-box{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        >.name{
+            >p{
+                text-align: center;
+            }
+        }
+    }
+}
+
+.container{
+    max-width: 1320px;
+    >.con{
+        margin-bottom: 100px;
+        >.top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3% 0;
+            >h2{
+
+            }
+            >a{
+                display: block;
+                >button{
+                    width: 150px;
+                    height: 40px;
+                    font-size: 20px;
+                    border-radius: 20px;
+                    background: none;
+                    border: 2px solid white;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+        >.bottom{
+            >.swiper{
+                >.swiper-wrapper{
+                    >.swiper-slide{
+                        width: 20%;
+                        >a{
+                            display: block;
+                            color: white;
+                            >figure{
+
+                                >img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
